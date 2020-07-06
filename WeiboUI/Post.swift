@@ -35,13 +35,13 @@ extension Post {
     var likeString: String {
         if likeCount == 0 { return "点赞" }
         if likeCount < 1000 { return "\(likeCount)" }
-        return String(format: "%.1f k", Double(likeCount) / 1000)
+        return String(format: "%.1fk", Double(likeCount) / 1000)
     }
     
     var CommentString: String {
         if commentCount == 0 { return "评论" }
         if commentCount < 1000 { return "\(commentCount)" }
-        return String(format: "%.1f k", Double(commentCount) / 1000)
+        return String(format: "%.1fk", Double(commentCount) / 1000)
     }
 }
 
