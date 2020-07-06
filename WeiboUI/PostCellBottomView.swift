@@ -4,19 +4,22 @@
 //
 //  Created by zzz on 2020/7/6.
 //  Copyright © 2020 zzz. All rights reserved.
-//
+//  cell bottom view
 
 import SwiftUI
 
+// 枚举按钮样式
 enum BottomButton {
     case like
     case comment
 }
 
 struct PostCellBottomView: View {
+    
     let imageName: String
     let title: String
     let color: Color
+    
     init(_ type: BottomButton, _ title: String) {
         switch type {
         case .like:
@@ -51,6 +54,6 @@ struct PostCellBottomView: View {
 
 struct PostCellBottomView_Previews: PreviewProvider {
     static var previews: some View {
-        PostCellBottomView(.comment, "12")
+        PostCellBottomView(.comment, "")
     }
 }

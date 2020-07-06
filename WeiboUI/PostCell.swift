@@ -4,7 +4,7 @@
 //
 //  Created by zzz on 2020/7/6.
 //  Copyright © 2020 zzz. All rights reserved.
-//
+//  cell
 
 import SwiftUI
 
@@ -96,14 +96,3 @@ struct PostCell_Previews: PreviewProvider {
         PostCell(post: postList.list[0])
     }
 }
-
-// 放在.xcassets目录下的图片可以用Image(name)，一般文件夹里的图片不行
-
-
-/**
-  .padding(.init(top: 0, leading: 10, bottom: 0, trailing: 10))
-
- -> horizontal
- 
- 
- */
