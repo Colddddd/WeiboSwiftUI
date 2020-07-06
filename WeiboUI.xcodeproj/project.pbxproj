@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04E831CA24B2F2DE008A886A /* PostCellBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E831C924B2F2DE008A886A /* PostCellBottomView.swift */; };
 		04E831CC24B2F916008A886A /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E831CB24B2F916008A886A /* PostListView.swift */; };
+		04E831CE24B31AA0008A886A /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E831CD24B31AA0008A886A /* PostImageCell.swift */; };
 		04ED483F24B2D82D003AA7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED483E24B2D82D003AA7DB /* AppDelegate.swift */; };
 		04ED484124B2D82D003AA7DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED484024B2D82D003AA7DB /* SceneDelegate.swift */; };
 		04ED484324B2D82D003AA7DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED484224B2D82D003AA7DB /* ContentView.swift */; };
@@ -106,6 +107,7 @@
 /* Begin PBXFileReference section */
 		04E831C924B2F2DE008A886A /* PostCellBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellBottomView.swift; sourceTree = "<group>"; };
 		04E831CB24B2F916008A886A /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		04E831CD24B31AA0008A886A /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		04ED483B24B2D82D003AA7DB /* WeiboUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED483E24B2D82D003AA7DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ED484024B2D82D003AA7DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				04ED48FB24B2E61A003AA7DB /* PostVIPBader.swift */,
 				04E831C924B2F2DE008A886A /* PostCellBottomView.swift */,
 				04ED48FD24B2E7C1003AA7DB /* Post.swift */,
+				04E831CD24B31AA0008A886A /* PostImageCell.swift */,
 				04ED485424B2D898003AA7DB /* Resources */,
 				04ED484424B2D830003AA7DB /* Assets.xcassets */,
 				04ED484924B2D830003AA7DB /* LaunchScreen.storyboard */,
@@ -508,6 +511,7 @@
 				04ED484124B2D82D003AA7DB /* SceneDelegate.swift in Sources */,
 				04ED48FE24B2E7C1003AA7DB /* Post.swift in Sources */,
 				04ED484324B2D82D003AA7DB /* ContentView.swift in Sources */,
+				04E831CE24B31AA0008A886A /* PostImageCell.swift in Sources */,
 				04ED485324B2D866003AA7DB /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,13 +650,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WeiboUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4T5X3JH5J2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WeiboUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "--.WeiboUI";
+				PRODUCT_BUNDLE_IDENTIFIER = rx.dd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -665,13 +670,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WeiboUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4T5X3JH5J2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WeiboUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "--.WeiboUI";
+				PRODUCT_BUNDLE_IDENTIFIER = rx.dd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

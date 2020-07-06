@@ -61,11 +61,7 @@ struct PostCell: View {
             
             // 图片
             if !post.images.isEmpty {
-                getPostImage(post.images.first!)
-                .resizable()
-                .scaledToFill()
-                .frame(width: UIScreen.main.bounds.width - 30, height: (UIScreen.main.bounds.width - 30) * 0.75)
-                .clipped()
+                PostImageCell(images: post.images)
             }
             
             Divider()

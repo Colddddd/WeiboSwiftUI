@@ -1,12 +1,13 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "cbfda733e7f7de69c9dbd8c08ece86ff"
-build_time: [1594019088, 715213000]
+options: "9a9b63f4a1a5f3edf7db39af54829fe5"
+build_time: [1594027483, 821051000]
 inputs:
-  "/Users/dzj/Desktop/UI/WeiboUI/WeiboUI/PostCellBottomView.swift": [1594019085, 742327109]
-  "/Users/dzj/Desktop/UI/WeiboUI/WeiboUI/PostVIPBader.swift": [1594019085, 743156059]
-  "/Users/dzj/Desktop/UI/WeiboUI/WeiboUI/PostListView.swift": [1594019085, 742780089]
-  "/Users/dzj/Desktop/UI/WeiboUI/WeiboUI/AppDelegate.swift": [1594019085, 739794435]
-  "/Users/dzj/Desktop/UI/WeiboUI/WeiboUI/SceneDelegate.swift": [1594019085, 774637677]
-  "/Users/dzj/Desktop/UI/WeiboUI/WeiboUI/Post.swift": [1594019085, 741730978]
-  "/Users/dzj/Desktop/UI/WeiboUI/WeiboUI/ContentView.swift": [1594019085, 741087816]
-  "/Users/dzj/Desktop/UI/WeiboUI/WeiboUI/PostCell.swift": [1594019085, 742022485]
+  "/Users/dzj/Desktop/WeiboSwiftUI/WeiboUI/PostCellBottomView.swift": [1594024339, 467156106]
+  "/Users/dzj/Desktop/WeiboSwiftUI/WeiboUI/PostVIPBader.swift": [1594024339, 467464333]
+  "/Users/dzj/Desktop/WeiboSwiftUI/WeiboUI/PostListView.swift": [1594024339, 467279225]
+  "/Users/dzj/Desktop/WeiboSwiftUI/WeiboUI/AppDelegate.swift": [1594024339, 465664227]
+  "/Users/dzj/Desktop/WeiboSwiftUI/WeiboUI/SceneDelegate.swift": [1594024339, 507499083]
+  "/Users/dzj/Desktop/WeiboSwiftUI/WeiboUI/Post.swift": [1594024339, 466866189]
+  "/Users/dzj/Desktop/WeiboSwiftUI/WeiboUI/ContentView.swift": [1594024339, 466591810]
+  "/Users/dzj/Desktop/WeiboSwiftUI/WeiboUI/PostImageCell.swift": !dirty [1594027483, 705420475]
+  "/Users/dzj/Desktop/WeiboSwiftUI/WeiboUI/PostCell.swift": [1594025207, 854179872]
