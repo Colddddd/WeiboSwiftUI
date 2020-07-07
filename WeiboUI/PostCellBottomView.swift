@@ -25,11 +25,11 @@ struct PostCellBottomView: View {
         case .like:
             self.imageName = "heart"
             self.title = title
-            self.color = Color.orange
+            self.color = Color.gray
         default:
             self.imageName = "message"
             self.title = title
-            self.color = Color.orange
+            self.color = Color.gray
         }
     }
     

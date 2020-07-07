@@ -8,19 +8,40 @@
 
 import SwiftUI
 
+let kscreenW: CGFloat = UIScreen.main.bounds.width
+
 struct PostListView: View {
-    
-    init() {
-        // 修改 tableview 默认行为
-        UITableView.appearance().separatorStyle = .none
-        UITableViewCell.appearance().selectionStyle = .none
+
+    let type: PostListType
+
+    var data: PostList {
+        switch type {
+        case .hot:
+            return getPostList("PostListData_hot_1.json")
+        default:
+            return getPostList("PostListData_recommend_1.json")
+        }
     }
-    
+
     var body: some View {
         // 遵循 Identifiable 协议， 可以默认以 id 为标识符
         List {
-            ForEach(postList.list) { post in
-                PostCell(post: post)
+            ForEach(data.list) { post in
+                // 跳转,直接放入cell 会有个 箭头
+                /*
+                NavigationLink(destination: Text("de")) {
+                    PostCell(post: post)
+                }
+                .listRowInsets(EdgeInsets())
+                */
+
+                ZStack { // 垂直屏幕方向
+                    PostCell(post: post)
+                    NavigationLink(destination: PostDetailView(post: post)) {
+                       EmptyView()
+                    }
+                    .hidden()
+                }
                 .listRowInsets(EdgeInsets())
             }
         }
@@ -29,6 +50,11 @@ struct PostListView: View {
 
 struct PostListView_Previews: PreviewProvider {
     static var previews: some View {
-        PostListView()
+        // 导航
+        NavigationView {
+            PostListView(type: .hot)
+            .navigationBarTitle("微博")
+            .navigationBarHidden(true) // 必须设置title
+        }
     }
 }
