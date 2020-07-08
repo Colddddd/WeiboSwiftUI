@@ -1,0 +1,481 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostCell"
+- "PostCell_Previews"
+provides-nominal:
+- "7WeiboUI8PostCellV"
+- "7WeiboUI17PostCell_PreviewsV"
+provides-member:
+- ["7WeiboUI8PostCellV", ""]
+- ["7WeiboUI17PostCell_PreviewsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "/"
+- !private "BorderlessButtonStyle"
+- !private "Button"
+- !private "Circle"
+- !private "Color"
+- !private "Divider"
+- "FloatLiteralType"
+- !private "HStack"
+- !private "Image"
+- !private "IntegerLiteralType"
+- "Post"
+- "PostCell"
+- !private "PostCellBottomView"
+- "PostCell_Previews"
+- !private "PostImageCell"
+- !private "PostVIPBader"
+- "PreviewProvider"
+- !private "Rectangle"
+- !private "RoundedRectangle"
+- !private "Spacer"
+- !private "StringLiteralType"
+- !private "Text"
+- !private "UIImage"
+- !private "VStack"
+- "View"
+- !private "postList"
+- !private "print"
+depends-member:
+- !private ["7SwiftUI10AnimatableP", "init"]
+- !private ["7SwiftUI10AnimatableP", "padding"]
+- !private ["7SwiftUI10AnimatableP", "stroke"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "subscript"]
+- !private ["7SwiftUI21BorderlessButtonStyleV", "init"]
+- !private ["7WeiboUI12BottomButtonO", "comment"]
+- !private ["7WeiboUI12BottomButtonO", "like"]
+- !private ["7SwiftUI6ButtonV", "buttonStyle"]
+- !private ["7SwiftUI6ButtonV", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["7SwiftUI6CircleV", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "subscript"]
+- !private ["7SwiftUI5ColorV", "gray"]
+- !private ["7SwiftUI5ColorV", "init"]
+- !private ["7SwiftUI5ColorV", "orange"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "gray"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "orange"]
+- !private ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "system"]
+- !private ["s17CustomReflectableP", "gray"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "orange"]
+- !private ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "system"]
+- !private ["s23CustomStringConvertibleP", "gray"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "orange"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "CommentString"]
+- !private ["Se", "avatar"]
+- !private ["Se", "date"]
+- !private ["Se", "gray"]
+- !private ["Se", "images"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "isFollowed"]
+- !private ["Se", "likeString"]
+- !private ["Se", "list"]
+- !private ["Se", "name"]
+- !private ["Se", "none"]
+- !private ["Se", "orange"]
+- !private ["Se", "some"]
+- !private ["Se", "subscript"]
+- !private ["Se", "system"]
+- !private ["Se", "text"]
+- !private ["Se", "vip"]
+- !private ["7SwiftUI7DividerV", "init"]
+- !private ["SE", "CommentString"]
+- !private ["SE", "avatar"]
+- !private ["SE", "date"]
+- !private ["SE", "gray"]
+- !private ["SE", "images"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "isFollowed"]
+- !private ["SE", "likeString"]
+- !private ["SE", "list"]
+- !private ["SE", "name"]
+- !private ["SE", "none"]
+- !private ["SE", "orange"]
+- !private ["SE", "some"]
+- !private ["SE", "subscript"]
+- !private ["SE", "system"]
+- !private ["SE", "text"]
+- !private ["SE", "vip"]
+- !private ["SQ", "comment"]
+- !private ["SQ", "font"]
+- !private ["SQ", "foregroundColor"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "gray"]
+- !private ["SQ", "horizontal"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "leading"]
+- !private ["SQ", "like"]
+- !private ["SQ", "lineLimit"]
+- !private ["SQ", "none"]
+- !private ["SQ", "orange"]
+- !private ["SQ", "resizable"]
+- !private ["SQ", "scaledToFill"]
+- !private ["SQ", "some"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "system"]
+- !private ["SQ", "top"]
+- !private ["s25ExpressibleByArrayLiteralP", "horizontal"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "leading"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "top"]
+- !private ["s23ExpressibleByNilLiteralP", "gray"]
+- !private ["s23ExpressibleByNilLiteralP", "none"]
+- !private ["s23ExpressibleByNilLiteralP", "orange"]
+- !private ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s23ExpressibleByNilLiteralP", "system"]
+- !private ["7SwiftUI4FontV", "system"]
+- !private ["7SwiftUI7GestureP", "gray"]
+- !private ["7SwiftUI7GestureP", "none"]
+- !private ["7SwiftUI7GestureP", "orange"]
+- !private ["7SwiftUI7GestureP", "some"]
+- !private ["7SwiftUI7GestureP", "system"]
+- !private ["7SwiftUI6HStackV", "init"]
+- !private ["SH", "comment"]
+- !private ["SH", "gray"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "like"]
+- !private ["SH", "none"]
+- !private ["SH", "orange"]
+- !private ["SH", "some"]
+- !private ["SH", "subscript"]
+- !private ["SH", "system"]
+- !private ["7SwiftUI19HorizontalAlignmentV", "leading"]
+- !private ["s12IdentifiableP", "CommentString"]
+- !private ["s12IdentifiableP", "avatar"]
+- !private ["s12IdentifiableP", "date"]
+- !private ["s12IdentifiableP", "images"]
+- !private ["s12IdentifiableP", "isFollowed"]
+- !private ["s12IdentifiableP", "likeString"]
+- !private ["s12IdentifiableP", "name"]
+- !private ["s12IdentifiableP", "text"]
+- !private ["s12IdentifiableP", "vip"]
+- !private ["7SwiftUI5ImageV", "init"]
+- !private ["7SwiftUI5ImageV", "resizable"]
+- !private ["7SwiftUI5ImageV", "scaledToFill"]
+- !private ["7SwiftUI15InsettableShapeP", "init"]
+- !private ["7SwiftUI15InsettableShapeP", "padding"]
+- !private ["7SwiftUI15InsettableShapeP", "stroke"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s9OptionSetP", "horizontal"]
+- !private ["s9OptionSetP", "leading"]
+- !private ["s9OptionSetP", "top"]
+- !private ["Sq", "gray"]
+- !private ["Sq", "none"]
+- !private ["Sq", "orange"]
+- !private ["Sq", "some"]
+- !private ["Sq", "system"]
+- !private ["7WeiboUI4PostV", "CommentString"]
+- !private ["7WeiboUI4PostV", "avatar"]
+- !private ["7WeiboUI4PostV", "date"]
+- !private ["7WeiboUI4PostV", "images"]
+- !private ["7WeiboUI4PostV", "isFollowed"]
+- !private ["7WeiboUI4PostV", "likeString"]
+- !private ["7WeiboUI4PostV", "name"]
+- !private ["7WeiboUI4PostV", "text"]
+- !private ["7WeiboUI4PostV", "vip"]
+- ["7WeiboUI8PostCellV", "Body"]
+- !private ["7WeiboUI8PostCellV", "BorderlessButtonStyle"]
+- !private ["7WeiboUI8PostCellV", "Button"]
+- !private ["7WeiboUI8PostCellV", "Circle"]
+- !private ["7WeiboUI8PostCellV", "Color"]
+- !private ["7WeiboUI8PostCellV", "Divider"]
+- !private ["7WeiboUI8PostCellV", "HStack"]
+- !private ["7WeiboUI8PostCellV", "Image"]
+- ["7WeiboUI8PostCellV", "Post"]
+- !private ["7WeiboUI8PostCellV", "PostCellBottomView"]
+- !private ["7WeiboUI8PostCellV", "PostImageCell"]
+- !private ["7WeiboUI8PostCellV", "PostVIPBader"]
+- !private ["7WeiboUI8PostCellV", "Rectangle"]
+- !private ["7WeiboUI8PostCellV", "RoundedRectangle"]
+- !private ["7WeiboUI8PostCellV", "Spacer"]
+- !private ["7WeiboUI8PostCellV", "Text"]
+- !private ["7WeiboUI8PostCellV", "UIImage"]
+- !private ["7WeiboUI8PostCellV", "VStack"]
+- ["7WeiboUI8PostCellV", "View"]
+- ["7WeiboUI8PostCellV", "_Default_Body"]
+- ["7WeiboUI8PostCellV", "_makeView"]
+- ["7WeiboUI8PostCellV", "_makeViewList"]
+- ["7WeiboUI8PostCellV", "body"]
+- ["7WeiboUI8PostCellV", "deinit"]
+- ["7WeiboUI8PostCellV", "init"]
+- ["7WeiboUI8PostCellV", "post"]
+- !private ["7WeiboUI8PostCellV", "print"]
+- !private ["7WeiboUI18PostCellBottomViewV", "deinit"]
+- !private ["7WeiboUI18PostCellBottomViewV", "init"]
+- !private ["7WeiboUI17PostCell_PreviewsV", "PostCell"]
+- ["7WeiboUI17PostCell_PreviewsV", "Previews"]
+- ["7WeiboUI17PostCell_PreviewsV", "View"]
+- ["7WeiboUI17PostCell_PreviewsV", "_Default_Previews"]
+- ["7WeiboUI17PostCell_PreviewsV", "_platform"]
+- ["7WeiboUI17PostCell_PreviewsV", "_previews"]
+- ["7WeiboUI17PostCell_PreviewsV", "deinit"]
+- ["7WeiboUI17PostCell_PreviewsV", "init"]
+- ["7WeiboUI17PostCell_PreviewsV", "platform"]
+- !private ["7WeiboUI17PostCell_PreviewsV", "postList"]
+- ["7WeiboUI17PostCell_PreviewsV", "previews"]
+- !private ["7WeiboUI13PostImageCellV", "deinit"]
+- !private ["7WeiboUI13PostImageCellV", "init"]
+- !private ["7WeiboUI8PostListV", "list"]
+- !private ["7WeiboUI12PostVIPBaderV", "deinit"]
+- !private ["7WeiboUI12PostVIPBaderV", "init"]
+- !private ["7SwiftUI15PreviewProviderP", "PostCell"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- !private ["7SwiftUI15PreviewProviderP", "postList"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
+- !private ["7SwiftUI20PrimitiveButtonStyleP", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "horizontal"]
+- !private ["SY", "leading"]
+- !private ["SY", "top"]
+- !private ["7SwiftUI9RectangleV", "init"]
+- !private ["7SwiftUI9RectangleV", "padding"]
+- !private ["7SwiftUI16RoundedRectangleV", "init"]
+- !private ["7SwiftUI16RoundedRectangleV", "stroke"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "subscript"]
+- !private ["7SwiftUI4EdgeO3SetV", "horizontal"]
+- !private ["7SwiftUI4EdgeO3SetV", "leading"]
+- !private ["7SwiftUI4EdgeO3SetV", "top"]
+- !private ["s10SetAlgebraP", "horizontal"]
+- !private ["s10SetAlgebraP", "leading"]
+- !private ["s10SetAlgebraP", "top"]
+- !private ["7SwiftUI5ShapeP", "init"]
+- !private ["7SwiftUI5ShapeP", "padding"]
+- !private ["7SwiftUI5ShapeP", "stroke"]
+- !private ["7SwiftUI10ShapeStyleP", "gray"]
+- !private ["7SwiftUI10ShapeStyleP", "init"]
+- !private ["7SwiftUI10ShapeStyleP", "orange"]
+- !private ["7SwiftUI6SpacerV", "init"]
+- !private ["7SwiftUI4TextV", "font"]
+- !private ["7SwiftUI4TextV", "foregroundColor"]
+- !private ["7SwiftUI4TextV", "frame"]
+- !private ["7SwiftUI4TextV", "init"]
+- !private ["7SwiftUI4TextV", "lineLimit"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["7SwiftUI6VStackV", "init"]
+- !private ["7SwiftUI6VStackV", "padding"]
+- ["7SwiftUI4ViewP", "Body"]
+- !private ["7SwiftUI4ViewP", "BorderlessButtonStyle"]
+- !private ["7SwiftUI4ViewP", "Button"]
+- !private ["7SwiftUI4ViewP", "Circle"]
+- !private ["7SwiftUI4ViewP", "Color"]
+- !private ["7SwiftUI4ViewP", "Divider"]
+- !private ["7SwiftUI4ViewP", "HStack"]
+- !private ["7SwiftUI4ViewP", "Image"]
+- !private ["7SwiftUI4ViewP", "PostCellBottomView"]
+- !private ["7SwiftUI4ViewP", "PostImageCell"]
+- !private ["7SwiftUI4ViewP", "PostVIPBader"]
+- !private ["7SwiftUI4ViewP", "Rectangle"]
+- !private ["7SwiftUI4ViewP", "RoundedRectangle"]
+- !private ["7SwiftUI4ViewP", "Spacer"]
+- !private ["7SwiftUI4ViewP", "Text"]
+- !private ["7SwiftUI4ViewP", "UIImage"]
+- !private ["7SwiftUI4ViewP", "VStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "buttonStyle"]
+- !private ["7SwiftUI4ViewP", "clipShape"]
+- !private ["7SwiftUI4ViewP", "font"]
+- !private ["7SwiftUI4ViewP", "foregroundColor"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "gray"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "lineLimit"]
+- !private ["7SwiftUI4ViewP", "none"]
+- !private ["7SwiftUI4ViewP", "orange"]
+- !private ["7SwiftUI4ViewP", "overlay"]
+- !private ["7SwiftUI4ViewP", "padding"]
+- !private ["7SwiftUI4ViewP", "post"]
+- !private ["7SwiftUI4ViewP", "print"]
+- !private ["7SwiftUI4ViewP", "resizable"]
+- !private ["7SwiftUI4ViewP", "scaledToFill"]
+- !private ["7SwiftUI4ViewP", "some"]
+- !private ["7SwiftUI4ViewP", "stroke"]
+- !private ["7SwiftUI4ViewP", "system"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "gray"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "none"]
+- !private ["s21_ObjectiveCBridgeableP", "orange"]
+- !private ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "system"]
+- !private ["7SwiftUI16_PreviewProviderP", "PostCell"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- !private ["7SwiftUI16_PreviewProviderP", "postList"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
+depends-nominal:
+- !private "7SwiftUI10AnimatableP"
+- !private "Sa"
+- !private "SK"
+- !private "7SwiftUI21BorderlessButtonStyleV"
+- !private "7WeiboUI12BottomButtonO"
+- !private "7SwiftUI6ButtonV"
+- !private "s7CVarArgP"
+- !private "7SwiftUI6CircleV"
+- !private "Sl"
+- !private "7SwiftUI5ColorV"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "7SwiftUI7DividerV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI4FontV"
+- !private "7SwiftUI7GestureP"
+- !private "7SwiftUI6HStackV"
+- !private "SH"
+- !private "7SwiftUI19HorizontalAlignmentV"
+- !private "s12IdentifiableP"
+- !private "7SwiftUI5ImageV"
+- !private "7SwiftUI15InsettableShapeP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "7WeiboUI4PostV"
+- "7WeiboUI8PostCellV"
+- !private "7WeiboUI18PostCellBottomViewV"
+- "7WeiboUI17PostCell_PreviewsV"
+- !private "7WeiboUI13PostImageCellV"
+- !private "7WeiboUI8PostListV"
+- !private "7WeiboUI12PostVIPBaderV"
+- "7SwiftUI15PreviewProviderP"
+- !private "7SwiftUI20PrimitiveButtonStyleP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "7SwiftUI9RectangleV"
+- !private "7SwiftUI16RoundedRectangleV"
+- !private "ST"
+- !private "7SwiftUI4EdgeO3SetV"
+- !private "s10SetAlgebraP"
+- !private "7SwiftUI5ShapeP"
+- !private "7SwiftUI10ShapeStyleP"
+- !private "7SwiftUI6SpacerV"
+- !private "7SwiftUI4TextV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "7SwiftUI6VStackV"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f680ae0753cb6a3498003003948d3493"
