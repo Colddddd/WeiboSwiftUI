@@ -1,6 +1,5 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "containerWidth"
 - "PostImageCell"
 - "PostImageRowCell"
 - "PostImageCell_Previews"
@@ -32,9 +31,11 @@ depends-top-level:
 - "PreviewProvider"
 - "String"
 - "UIScreen"
+- !private "VStack"
 - "View"
-- "containerWidth"
+- !private "containerWidth"
 - !private "getPostImage"
+- !private "itemPadding"
 - !private "postList"
 depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
@@ -145,10 +146,12 @@ depends-member:
 - ["So8NSObjectP", "main"]
 - !private ["Sj", "init"]
 - !private ["7WeiboUI4PostV", "images"]
+- !private ["7WeiboUI13PostImageCellV", "Array"]
 - ["7WeiboUI13PostImageCellV", "Body"]
 - !private ["7WeiboUI13PostImageCellV", "Group"]
 - !private ["7WeiboUI13PostImageCellV", "PostImageRowCell"]
 - ["7WeiboUI13PostImageCellV", "String"]
+- !private ["7WeiboUI13PostImageCellV", "VStack"]
 - ["7WeiboUI13PostImageCellV", "View"]
 - ["7WeiboUI13PostImageCellV", "_Default_Body"]
 - ["7WeiboUI13PostImageCellV", "_makeView"]
@@ -188,6 +191,7 @@ depends-member:
 - !private ["7WeiboUI16PostImageRowCellV", "getPostImage"]
 - ["7WeiboUI16PostImageRowCellV", "images"]
 - ["7WeiboUI16PostImageRowCellV", "init"]
+- !private ["7WeiboUI16PostImageRowCellV", "itemPadding"]
 - ["7WeiboUI16PostImageRowCellV", "itemW"]
 - !private ["7WeiboUI8PostListV", "list"]
 - !private ["7SwiftUI13PreviewLayoutO", "fixed"]
@@ -221,13 +225,16 @@ depends-member:
 - ["So8UIScreenC", "main"]
 - ["So18UITraitEnvironmentP", "bounds"]
 - ["So18UITraitEnvironmentP", "main"]
+- !private ["7SwiftUI6VStackV", "init"]
 - !private ["7SwiftUI16VectorArithmeticP", "init"]
+- !private ["7SwiftUI4ViewP", "Array"]
 - ["7SwiftUI4ViewP", "Body"]
 - !private ["7SwiftUI4ViewP", "CGFloat"]
 - !private ["7SwiftUI4ViewP", "ForEach"]
 - !private ["7SwiftUI4ViewP", "Group"]
 - !private ["7SwiftUI4ViewP", "HStack"]
 - !private ["7SwiftUI4ViewP", "PostImageRowCell"]
+- !private ["7SwiftUI4ViewP", "VStack"]
 - ["7SwiftUI4ViewP", ""]
 - ["7SwiftUI4ViewP", "_Default_Body"]
 - ["7SwiftUI4ViewP", "_makeView"]
@@ -239,6 +246,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "getPostImage"]
 - !private ["7SwiftUI4ViewP", "images"]
 - !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "itemPadding"]
 - !private ["7SwiftUI4ViewP", "itemW"]
 - !private ["7SwiftUI4ViewP", "previewLayout"]
 - !private ["7SwiftUI4ViewP", "resizable"]
@@ -335,6 +343,7 @@ depends-nominal:
 - !private "Sx"
 - "So8UIScreenC"
 - "So18UITraitEnvironmentP"
+- !private "7SwiftUI6VStackV"
 - !private "7SwiftUI16VectorArithmeticP"
 - "7SwiftUI4ViewP"
 - !private "7SwiftUI11ViewBuilderV"
@@ -383,4 +392,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "74d361f0f83116be12a4c00546b9a4fb"
+interface-hash: "eda19d0109cb27ab3adc7c7d9f6ccc0a"
