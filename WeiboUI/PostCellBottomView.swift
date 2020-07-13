@@ -19,13 +19,20 @@ struct PostCellBottomView: View {
     let imageName: String
     let title: String
     let color: Color
-    
-    init(_ type: BottomButton, _ title: String) {
+    let type: BottomButton
+    var post: Post
+
+    @EnvironmentObject var userData: UserData
+
+    init(_ type: BottomButton, _ title: String, _ post: Post) {
+        self.type = type
+        self.post = post
+
         switch type {
         case .like:
-            self.imageName = "heart"
+            self.imageName = self.post.isLiked ? "heart.fill" : "heart"
             self.title = title
-            self.color = Color.gray
+            self.color = Color.red
         default:
             self.imageName = "message"
             self.title = title
@@ -35,7 +42,22 @@ struct PostCellBottomView: View {
     
     var body: some View {
         Button(action: {
-            print("点击了 喜欢 / 是")
+            switch self.type {
+            case .comment:
+                print("zz")
+                
+            case .like:
+                var post = self.post
+                if !post.isLiked {
+                    post.likeCount += 1
+                    post.isLiked = true
+                } else {
+                    post.likeCount -= 1
+                    post.isLiked = false
+                }
+
+                self.userData.updatePublishPost(post: post)
+            }
         }) {
             Image(systemName: imageName)
             .resizable()
@@ -51,9 +73,3 @@ struct PostCellBottomView: View {
     }
 }
 
-
-struct PostCellBottomView_Previews: PreviewProvider {
-    static var previews: some View {
-        PostCellBottomView(.comment, "")
-    }
-}

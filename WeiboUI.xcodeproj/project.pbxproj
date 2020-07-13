@@ -12,7 +12,6 @@
 		04E831CE24B31AA0008A886A /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E831CD24B31AA0008A886A /* PostImageCell.swift */; };
 		04ED483F24B2D82D003AA7DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED483E24B2D82D003AA7DB /* AppDelegate.swift */; };
 		04ED484124B2D82D003AA7DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED484024B2D82D003AA7DB /* SceneDelegate.swift */; };
-		04ED484324B2D82D003AA7DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED484224B2D82D003AA7DB /* ContentView.swift */; };
 		04ED484524B2D830003AA7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ED484424B2D830003AA7DB /* Assets.xcassets */; };
 		04ED484824B2D830003AA7DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ED484724B2D830003AA7DB /* Preview Assets.xcassets */; };
 		04ED484B24B2D830003AA7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ED484924B2D830003AA7DB /* LaunchScreen.storyboard */; };
@@ -107,6 +106,7 @@
 		BA935F0624B4B4920058F7FA /* HomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA935F0524B4B4920058F7FA /* HomeNavigationBar.swift */; };
 		BA935F0824B4BF4D0058F7FA /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA935F0724B4BF4D0058F7FA /* HomePageView.swift */; };
 		BA935F0A24B4C1A20058F7FA /* PostListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA935F0924B4C1A20058F7FA /* PostListType.swift */; };
+		BAC2F0B524BC9C5A0045F68A /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC2F0B424BC9C5A0045F68A /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,7 +116,6 @@
 		04ED483B24B2D82D003AA7DB /* WeiboUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiboUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ED483E24B2D82D003AA7DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ED484024B2D82D003AA7DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04ED484224B2D82D003AA7DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04ED484424B2D830003AA7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ED484724B2D830003AA7DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04ED484A24B2D830003AA7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -212,6 +211,7 @@
 		BA935F0524B4B4920058F7FA /* HomeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationBar.swift; sourceTree = "<group>"; };
 		BA935F0724B4BF4D0058F7FA /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		BA935F0924B4C1A20058F7FA /* PostListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListType.swift; sourceTree = "<group>"; };
+		BAC2F0B424BC9C5A0045F68A /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,7 +246,6 @@
 			children = (
 				04ED483E24B2D82D003AA7DB /* AppDelegate.swift */,
 				04ED484024B2D82D003AA7DB /* SceneDelegate.swift */,
-				04ED484224B2D82D003AA7DB /* ContentView.swift */,
 				BA935F0724B4BF4D0058F7FA /* HomePageView.swift */,
 				04E831CB24B2F916008A886A /* PostListView.swift */,
 				BA935F0524B4B4920058F7FA /* HomeNavigationBar.swift */,
@@ -257,6 +256,7 @@
 				04ED48FD24B2E7C1003AA7DB /* Post.swift */,
 				04E831CD24B31AA0008A886A /* PostImageCell.swift */,
 				BA935F0924B4C1A20058F7FA /* PostListType.swift */,
+				BAC2F0B424BC9C5A0045F68A /* UserData.swift */,
 				BA8040B724B60C770017A5C1 /* ScrollViewController.swift */,
 				04ED485424B2D898003AA7DB /* Resources */,
 				04ED484424B2D830003AA7DB /* Assets.xcassets */,
@@ -522,13 +522,13 @@
 				BA935F0424B4B32A0058F7FA /* PostDetailView.swift in Sources */,
 				04E831CA24B2F2DE008A886A /* PostCellBottomView.swift in Sources */,
 				04ED48FC24B2E61A003AA7DB /* PostVIPBader.swift in Sources */,
+				BAC2F0B524BC9C5A0045F68A /* UserData.swift in Sources */,
 				BA8040B824B60C770017A5C1 /* ScrollViewController.swift in Sources */,
 				04E831CC24B2F916008A886A /* PostListView.swift in Sources */,
 				04ED483F24B2D82D003AA7DB /* AppDelegate.swift in Sources */,
 				04ED484124B2D82D003AA7DB /* SceneDelegate.swift in Sources */,
 				BA935F0624B4B4920058F7FA /* HomeNavigationBar.swift in Sources */,
 				04ED48FE24B2E7C1003AA7DB /* Post.swift in Sources */,
-				04ED484324B2D82D003AA7DB /* ContentView.swift in Sources */,
 				04E831CE24B31AA0008A886A /* PostImageCell.swift in Sources */,
 				BA935F0A24B4C1A20058F7FA /* PostListType.swift in Sources */,
 				BA935F0824B4BF4D0058F7FA /* HomePageView.swift in Sources */,
@@ -678,7 +678,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rx.dd;
+				PRODUCT_BUNDLE_IDENTIFIER = rx.ddd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -700,7 +700,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = rx.dd;
+				PRODUCT_BUNDLE_IDENTIFIER = rx.ddd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

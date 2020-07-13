@@ -42,6 +42,8 @@ struct HomePageView: View {
 
 struct HomePageView_Previews: PreviewProvider {
     static var previews: some View {
-        HomePageView()
+        Group {
+            HomePageView()
+        }
     }
 }

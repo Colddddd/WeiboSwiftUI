@@ -11,10 +11,17 @@ import SwiftUI
 struct PostCell: View {
     
     let post: Post
-    
+
+    @EnvironmentObject var userData: UserData
+
+    var bindingPost: Post  {
+        userData.getPublishPost(for: post.id)!
+    }
+
     var body: some View {
-        
-        VStack() {
+        var post = bindingPost
+
+        return VStack() {
             // 水平布局
             HStack() {
                 Image(uiImage: UIImage(named: post.avatar)!)
@@ -41,7 +48,8 @@ struct PostCell: View {
                 
                 if !post.isFollowed {
                     Button(action: {
-                        print("点击了关注")
+                        post.isFollowed = true
+                        self.userData.updatePublishPost(post: post)
                     }) {
                         Text("关注")
                             .font(.system(size: 14))
@@ -69,9 +77,9 @@ struct PostCell: View {
             // 底部视图
             HStack() {
                 Spacer()
-                PostCellBottomView(.like, post.likeString)
+                PostCellBottomView(.like, post.likeString, bindingPost)
                 Spacer()
-                PostCellBottomView(.comment, post.CommentString)
+                PostCellBottomView(.comment, post.CommentString, bindingPost)
                 Spacer()
             }
             

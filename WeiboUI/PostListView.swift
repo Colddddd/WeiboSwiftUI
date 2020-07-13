@@ -14,19 +14,12 @@ struct PostListView: View {
 
     let type: PostListType
 
-    var data: PostList {
-        switch type {
-        case .hot:
-            return getPostList("PostListData_hot_1.json")
-        default:
-            return getPostList("PostListData_recommend_1.json")
-        }
-    }
+    @EnvironmentObject var userData: UserData
 
     var body: some View {
         // 遵循 Identifiable 协议， 可以默认以 id 为标识符
         List {
-            ForEach(data.list) { post in
+            ForEach(userData.getPublishPostList(for: type).list) { post in
                 // 跳转,直接放入cell 会有个 箭头
                 /*
                 NavigationLink(destination: Text("de")) {
